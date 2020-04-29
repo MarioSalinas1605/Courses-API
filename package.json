@@ -1,0 +1,32 @@
+{
+  "name": "coursesapi",
+  "version": "1.0.0",
+  "description": "QraphQL API fo courses",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -e js,graphql index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarioSalinas1605/Courses-API.git"
+  },
+  "keywords": [
+    "graphql",
+    "api"
+  ],
+  "author": "Mario Salinas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarioSalinas1605/Courses-API/issues"
+  },
+  "homepage": "https://github.com/MarioSalinas1605/Courses-API#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^15.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
