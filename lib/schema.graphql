@@ -15,11 +15,15 @@ type Mutation {
     createCourse(input: CourseInput!): Course
     "Edit course"
     editCourse(_id: ID!, input: CourseEditInput): Course
+    "Delete course"
+    deleteCourse(_id: ID!): Course
 
     "Create student"
     createStudent(input: StudentInput!): Student
     "Edit student"
     editStudent(_id: ID!, input: StudentEditInput): Student
+    "Delete student"
+    deleteStudent(_id: ID!): Student
 }
 
 type Student {
