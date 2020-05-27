@@ -17,7 +17,6 @@ const schema = makeExecutableSchema({typeDefs, resolvers})
 
 app.use('/api', gplMiddleware({
   schema,
-  rootValue: resolvers,
   graphiql: true
 }))
 
